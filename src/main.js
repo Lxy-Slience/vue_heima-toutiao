@@ -3,8 +3,18 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// 加载Vant 核心组件库
+import Vant from 'vant';
+// 加载Vant 样式文件
+import 'vant/lib/index.css';
+
 // 加载全局样式文件
 import './styles/index.css'
+// 加载字体图标样式
+import './styles/icon.css'
+
+// 注册使用Vant 组件库
+Vue.use(Vant)
 
 Vue.config.productionTip = false
 
