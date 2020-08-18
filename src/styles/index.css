@@ -1,0 +1,19 @@
+html,
+body {
+    background-color: #f5f7f9;
+}
+
+.van-nav-bar {
+    background-color: #3296fa;
+}
+
+.van-nav-bar__title {
+    color: #fff;
+    font-size: 30px;
+    max-width: unset;
+}
+
+.van-nav-bar .van-icon {
+    color: #fff;
+    font-size: 30px;
+}

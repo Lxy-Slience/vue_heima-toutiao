@@ -13,6 +13,12 @@ import './styles/index.css'
 // 加载字体图标样式
 import './styles/icon.css'
 
+// 加载动态设置 rem 基准值
+import 'amfe-flexible'
+
+// 加载dayjs 初始配置
+import '@/utils/dayjs'
+
 // 注册使用Vant 组件库
 Vue.use(Vant)
 
